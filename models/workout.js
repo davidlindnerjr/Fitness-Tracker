@@ -64,6 +64,6 @@ FitTracker
 });
 
 
-const Workout = mongoose.model("Tracker", FitTracker);
+const Workout = mongoose.model("Workout", FitTracker);
 
 module.exports = Workout;
